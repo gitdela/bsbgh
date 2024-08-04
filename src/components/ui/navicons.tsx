@@ -82,9 +82,7 @@ const NavIcons = () => {
                 {/* ITEM */}
                 <div className='flex gap-4'>
                   <Image
-                    src={
-                      'https://images.placeholders.dev/?width=1055&height=100'
-                    }
+                    src={'https://picsum.photos/400/400'}
                     alt=''
                     width={72}
                     height={96}
@@ -113,9 +111,7 @@ const NavIcons = () => {
                 {/* ITEM */}
                 <div className='flex gap-4'>
                   <Image
-                    src={
-                      'https://www.pexels.com/photo/desert-rainbow-26796134/'
-                    }
+                    src={'https://picsum.photos/400/400'}
                     alt=''
                     width={72}
                     height={96}

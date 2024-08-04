@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ######################### */
+/* this is to hide the scrollbars in the app */
+/* don't forget to put the class on the containers that have the scrollbar */
+
+/* for chrome browsers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* for firefox browsers */
+.scrollbar-hide {
+  /* -ms-overflow-style: none; */
+  scrollbar-width: none;
+}
+/* ######################### */
+
 @layer base {
   :root {
     --background: 0 0% 100%;

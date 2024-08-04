@@ -75,7 +75,7 @@ const Slider = () => {
                 alt=''
                 fill
                 sizes='100%'
-                className='object-cover object-top'
+                className='object-cover lg:object-top'
               />
             </div>
           </div>
